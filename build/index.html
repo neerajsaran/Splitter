@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Split The ETHER</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Split The Ether</h1>
+  <h2>Week 3 Project</h2>
+  <h3>Owner Address: <span class="black"><span id="own_addr"></span> </span></h3>
+  <h3>Owner Balance: <span class="black"><span id="own_balance"></span> </span></h3>
+  <h3>Contract Address: <span class="black"><span id="cont_addr"></span> </span></h3>
+  <h3>Contract Balance: <span class="black"><span id="cont_balance"></span> </span></h3>
+  <br>
+  <button id="send" onclick="sendEther()">Send Ether to Contract</button>
+  <h3>Account A: <span class="black"><span id="acc_a"></span> </span></h3>
+  <h3>Account A Balance: <span class="black"><span id="acc_a_bal"></span> </span></h3>
+  <h3>Account B: <span class="black"><span id="acc_b"></span> </span></h3>
+  <h3>Account B Balance: <span class="black"><span id="acc_b_bal"></span> </span></h3>
+  <button id="send" onclick="refreshAccBal()">Refresh Account Balance</button>
+  <span id="status"></span>
+</body>
+</html>
